@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F1 Projekt — Történelem</title>
+    <link rel="stylesheet" href="style/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script src="style/js/script.js" defer></script>
+</head>
+<body>
+
+    <nav>
+         <a href="index.html" class="logo">
+              <rect width="120" height="40" rx="4" fill="#e10600"/>
+              <polygon points="48,6 62,6 38,34 24,34" fill="#ffffff"/>
+            </svg>
+            <span class="bracket"><span class="bracket">[</span>F<span>1</span><span class="bracket">]</span>&nbsp;
+        </a>     
+        <div class="menu-links">
+            <a href="index.html"><i class="fa-solid fa-house"></i> Főoldal</a>
+            <a href="tortenelem.html" class="active"><i class="fa-solid fa-clock-rotate-left"></i> Történelem</a>
+            <a href="redbull.html"><i class="fa-solid fa-car"></i>Red Bull Racing</a>
+            <a href="szabalyok.html"><i class="fa-solid fa-scale-balanced"></i> Szabályok</a>
+            <a href="forrasok.html" ><i class="fa-solid fa-book-open"></i> Források</a>
+
+        </div>
+    </nav>
+
+    <div class="page-wrapper">
+  <div class="hero-regi-wrap">
+            <img src="style/img/tortenet.jpg" alt="Régi F1 autók">
+        </div>
+        <section class="hero">
+          <div class="hero-overlay"></div>
+            <div class="hero-lines"></div>
+            <div class="hero-content">
+                <div class="hero-tag"><i class="fa-solid fa-clock-rotate-left"></i> 1950-tól napjainkig</div>
+                <h1>A Formula&nbsp;1<br><em>Története</em></h1>
+                <p class="hero-subtitle">Hét évtized verseny, vér és dicsőség — a világ legrangosabb autósportjának krónikája.</p>
+            </div>
+        </section>
+
+        <div class="page-content">
+
+            <div class="info-card reveal">
+                <p>A Formula-1 a legrangosabb nemzetközi autóverseny-sorozat. Az első hivatalos világbajnokságot <strong>1950-ben</strong> rendezték meg, a Silverstone-i pályán, Nagy-Britanniában. Az Alfa Romeo csapata uralta azt az első szezont.</p>
+            </div>
+
+            <div class="img-container reveal reveal-delay-1">
+                <div class="img-frame" data-caption="Klasszikus F1 versenyautó">
+                    <img src="style/img/lauda.jpg" alt="Régi F1 autó">
+                </div>
+                <div class="img-frame" data-caption="Modern korszak">
+                    <img src="style/img/verstappen.webp" alt="Modern F1 autó">
+                </div>
+            </div>
+
+            <h2 class="reveal"><i class="fa-solid fa-wind"></i> Az Aerodinamikai Forradalom</h2>
+            <div class="info-card reveal reveal-delay-1">
+                <p>A 70-es és 80-as évek elhozták az aerodinamikai forradalmat. A csapatok rájöttek, hogy az autó alakja döntő szerepet játszik a teljesítményben. Leszorítóerő, diffúzorok és szárnyak váltják fel az egyszerű karosszériákat.</p>
+            </div>
+
+            <div class="stat-grid reveal reveal-delay-2">
+                <div class="stat-item">
+                    <i class="fa-solid fa-trophy stat-icon"></i>
+                    <span class="stat-number" data-target="1950">0</span>
+                    <span class="stat-label">Első VB</span>
+                </div>
+                <div class="stat-item">
+                    <i class="fa-solid fa-star stat-icon"></i>
+                    <span class="stat-number" data-target="7">0</span>
+                    <span class="stat-label">Hamilton & Schumacher rekord-bajnokság</span>
+                </div>
+                <div class="stat-item">
+                    <i class="fa-solid fa-road stat-icon"></i>
+                    <span class="stat-number" data-target="77">0</span>
+                    <span class="stat-label">Szezonok</span>
+                </div>
+            </div>
+
+            <h2 class="reveal"><i class="fa-solid fa-user-astronaut"></i> Legendák</h2>
+            <div class="info-card reveal reveal-delay-1">
+                <p>Olyan legendák születtek ebben az időszakban, mint <strong>Niki Lauda</strong>, <strong>Ayrton Senna</strong> és <strong>Alain Prost</strong>. Versengésük máig az F1 történetének legemblematikusabb fejezete. Senna és Prost rivalizálása különösen bekerült a sportág mitológiájába.</p>
+            </div>
+
+            <div class="section-divider reveal"></div>
+
+            <!-- QUIZ -->
+            <div class="quiz-container reveal">
+                <div class="quiz-header">
+                    <i class="fa-solid fa-medal"></i>
+                    <h2>Tudáspróba: Történelem</h2>
+                </div>
+                <form id="quiz1">
+                    <div class="question">
+                        <p><span class="q-num">1</span> Mikor rendezték az első hivatalos F1 világbajnokságot?</p>
+                        <label><input type="radio" name="q1" value="a" required> 1945</label>
+                        <label><input type="radio" name="q1" value="b"> 1950</label>
+                        <label><input type="radio" name="q1" value="c"> 1960</label>
+                    </div>
+                    <div class="question">
+                        <p><span class="q-num">2</span> Hol volt az első F1-es futam?</p>
+                        <label><input type="radio" name="q2" value="a" required> Monza</label>
+                        <label><input type="radio" name="q2" value="b"> Monaco</label>
+                        <label><input type="radio" name="q2" value="c"> Silverstone</label>
+                    </div>
+                    <div class="question">
+                        <p><span class="q-num">3</span> Melyik márka dominálta az első futamot?</p>
+                        <label><input type="radio" name="q3" value="a" required> Ferrari</label>
+                        <label><input type="radio" name="q3" value="b"> Alfa Romeo</label>
+                        <label><input type="radio" name="q3" value="c"> Mercedes</label>
+                    </div>
+                    <div class="question">
+                        <p><span class="q-num">4</span> Milyen forradalom zajlott a 70-es, 80-as években?</p>
+                        <label><input type="radio" name="q4" value="a" required> Aerodinamikai</label>
+                        <label><input type="radio" name="q4" value="b"> Elektromos</label>
+                        <label><input type="radio" name="q4" value="c"> Gumiabroncs</label>
+                    </div>
+                    <button type="submit" class="submit-btn">
+                        <i class="fa-solid fa-paper-plane"></i> Értékelés
+                    </button>
+                    <div id="res1" class="result"></div>
+                </form>
+            </div>
+
+        </div>
+
+        <!-- SCROLL-REVEAL IMAGE: régi verseny, alulról felbukkanó -->
+        <div class="scroll-reveal-img-wrap" data-reveal-img>
+            <img src="style/img/f1history.jpg" alt="Régi Formula 1 verseny rajtja">
+        </div>
+
+        <div class="footer-strip">
+            <span><i class="fa-solid fa-flag-checkered"></i></span> &nbsp;F1 Projekt
+        </div>
+
+    </div>
+</body>
+</html>
